@@ -41,3 +41,10 @@ Exit
 - Add task deadlines and priorities  
 - Add edit/update option for tasks  
 - Build a GUI or web version (Tkinter/Flask)
+
+## Versions
+- **Basic Version (`to_do_list_basic.py`)**  
+  Tasks are stored only in memory. When you exit the program, tasks are lost.  
+
+- **Advanced Version (`to_do_list_file.py`)**  
+  Tasks are stored in a file (`tasks.txt`). Even after closing the program, tasks are saved and loaded again on restart.
